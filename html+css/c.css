@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+
+}
+.everyday{
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    color:green;
+    background-color: cornflowerblue; 
+       }
+       
+.everynight{
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    color: blue;
+    background-color: chocolate
+}
