@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    background-color:pink;
+    width: 860px;
+    margin: 0 auto;
+    
+   
+}
+
+
+.sidebar{
+    padding: 20px;
+    width: 20%;
+    height: 200px;
+    font-size: 30px;
+    color:white;
+    background-color: cornflowerblue;
+    float: left;
+   
+       }
+       
+.content{
+    padding: 20px;
+    width: 80%;
+    height: 200px;
+    font-size: 30px;
+    color: white;
+    background-color: chocolate;
+    float: right
+
+ 
+}
+
+
+.footer{
+    background-color: teal;
+    padding: 20px;
+
+}
+
+     
+ 
