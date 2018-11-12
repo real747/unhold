@@ -1,0 +1,19 @@
+.parent{
+    background-color:  teal;
+}
+
+.cf:before,
+.cf:after{
+    content:" ";
+    display: table;
+}
+.cf:after{
+    clear: both;
+}
+.child{
+    height: 200px;
+    margin-top: 20px;
+    width: 200px;
+    float: left;
+    background-color: pink;
+}

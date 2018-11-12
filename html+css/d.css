@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+
 }
 
 body{
@@ -10,10 +11,8 @@ body{
     background-color:pink;
     width: 860px;
     margin: 0 auto;
-    
-   
+      
 }
-
 
 .sidebar{
     padding: 20px;
@@ -22,10 +21,13 @@ body{
     font-size: 30px;
     color:black;
     background-color: cornflowerblue;
-    float: left;
-   
+    float: left;  
        }
-       
+
+   .clear{
+       clear: both;
+   }
+
 .content{
     padding: 20px;
     width: 80%;
@@ -34,10 +36,14 @@ body{
     color:black;
     background-color: chocolate;
     float: right
-
- 
 }
+.clearfix:before
+.clearfix:after{
+    content: " ";
+    display: table;
+    clear: both;
 
+}
 
 .footer{
     background-color: teal;
