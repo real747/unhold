@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: teal;
+    height: 50px;
+}
+
+.ball{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:pink;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.content{
+    position: relative;
+    height: 350px;
+    width: 760px;
+    background-color: goldenrod;
+    margin: 0 auto;
+}
