@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+
+.test{
+    background-color: goldenrod;
+    width: 400px;
+    height: 100px;
+}
