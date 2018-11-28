@@ -2,8 +2,31 @@ body{
     margin: 0;
 }
 
-.test{
-    background-color: goldenrod;
-    width: 400px;
-    height: 100px;
+/* banner*/
+
+.banner{
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.banner:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height:502px;
+    background-color:#345f6c;
+    
+}
+
+.banner-img{
+margin-top: 502px;
+background-image: url(../img/mw.jpg);
+height: 100vw;
+background-size: 100%;
+background-repeat: no-repeat;
 }
